@@ -1,4 +1,4 @@
-package com.example.demo_3.controller;
+package com.example.demo_3.controller.v1;
 
 import com.example.demo_3.dto.CreateLoanApplicationRequest;
 import com.example.demo_3.dto.LoanApplicationResponse;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/loan-applications")
+@RequestMapping("/api/v1/loan-applications")
 @RequiredArgsConstructor
 public class LoanApplicationController {
 
